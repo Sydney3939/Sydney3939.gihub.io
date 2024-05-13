@@ -1,0 +1,67 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    line-height: 1.6;
+    text-align: center; /* Center-align everything */
+}
+
+/* Header styles */
+header {
+    background-color: pink;
+    padding: 20px;
+}
+
+header h1 {
+    color: white;
+    font-size: 2em;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main section styles */
+main {
+    padding: 20px;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 30px;
+}
+
+/* Footer styles */
+footer {
+    background-color: pink;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.table-container {
+    margin: 0 auto; /* Center-align the container */
+    width: fit-content; /* Make the container width fit its content */
+}
