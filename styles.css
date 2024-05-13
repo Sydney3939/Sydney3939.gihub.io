@@ -70,3 +70,8 @@ footer {
     padding: 20px; /* Add padding inside the box */
     margin-bottom: 20px; /* Add space between boxes */
 }
+.project-box {
+    border: 2px solid pink; /* Set border color and width */
+    padding: 20px; /* Add padding inside the box */
+    margin-bottom: 20px; /* Add space between boxes */
+}
