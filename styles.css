@@ -112,3 +112,42 @@ footer {
         max-width: 100%;
     }
 }
+/*Styles for classes section */
+#classes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.class-list {
+    width: 48%;
+    border: 2px solid pink;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #ffe6e6;
+}
+
+.class-list h3 {
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+}
+.class-list ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #fff; /* Light pink background */
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.class-list ul li {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Hover effect for list items */
+.class-list ul li:hover {
+    background-color: pink;
+    color: white;
+    cursor: pointer;
+}
