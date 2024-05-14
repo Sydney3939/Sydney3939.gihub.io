@@ -61,9 +61,21 @@ footer {
     padding: 20px;
     text-align: center;
 }
+/*Containers and Boxes*/
+#education, #contact {
+    background-color: #ffe6e6; /* Light pink background color */
+    padding: 20px; /* Add padding for better spacing */
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+    margin-bottom: 20px; /* Add space below the section */
+}
+
 .table-container {
     margin: 0 auto; /* Center-align the container */
     width: fit-content; /* Make the container width fit its content */
+}
+
+#education h2 {
+    margin-bottom: 10px; /* Add space below the heading */
 }
 .about-box {
     border: 2px solid pink; /* Set border color and width */
